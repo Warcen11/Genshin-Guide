@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+}
+header{
+    height: 200px;
+    background-color: #FF7373;
+    font-size: 128px;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 200px;
+    background-color: #FFB273;
+}
+#menu{
+    width: 50px;
+    background-color: bisque;
+    height: 100%;
+    transition: all ease-in-out 1s;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    height: 100%;
+}
+#forButton>button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: none;
+}
+#page1, #page2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: all ease-in-out 2s;
+}
+.characters{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.characters>a>img{
+    height: 100%;
+}
+#forButton{
+    display: flex;
+    justify-content: end;
+}
+#forLinks{
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+}
+#page2{
+    display: flex;
+    height: 0;
+}
+#pages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#nextPage, #previousPage{
+    width: 100%;
+}
+.characters>a{
+    height: 100%;
+}
+.characters{
+    height: 25%;
+}
+
